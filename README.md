@@ -5,3 +5,6 @@
 3. Drag and drop the downloaded So Many Robots: Robot Explorer.uf2 to the RPI-RP2 volume.
 
 See [So Many Robots DIY - Print in Place Robot With Python and Raspberry Pi Pico W](https://www.instructables.com/So-Many-Robots-DIY-Print-in-Place-Robot-for-STEM-L/) for detailed instructions on building the robot.
+
+## Editing code 
+Source code can be loaded by editing in Thonny, see https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0 for additional info on getting started.
