@@ -8,3 +8,14 @@ See [So Many Robots DIY - Print in Place Robot With Python and Raspberry Pi Pico
 
 ## Editing code 
 Source code can be loaded by editing in Thonny, see https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/0 for additional info on getting started.
+
+## Taking Snapshots of the Raspberry Pi Pico State  
+
+If you'd like to create a full snapshot of your Raspberry Pi Pico's current state for backup or restoration purposes, you can use `picotool`.  
+
+To use this feature, you’ll need to install `picotool`. Follow the installation instructions in the official Raspberry Pi documentation: [Raspberry Pi Picotool](https://github.com/raspberrypi/picotool)
+
+Run the following command to save a snapshot as a `.uf2` file:  
+```
+picotool save --all robot-backup.uf2
+```
